@@ -6,6 +6,8 @@ import LandingPage from './pages/home/LandingPage.js'
 import Login from './pages/auth/Login.js'
 import Register from './pages/auth/Register.tsx'
 import Services from './pages/public/Services.tsx'
+import Contact from './pages/public/Contacts.tsx'
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/contacts" element={<Contact />} />
         
       </Route>
       
