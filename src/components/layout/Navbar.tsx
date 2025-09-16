@@ -39,11 +39,11 @@ const Navbar = () => {
           >
             Services
           </NavLink>
-          <NavLink to="/contact"
+          <NavLink to="/contacts"
             className={({isActive}) => 
               `hover:text-accent ${isActive ? 'text-accent font-medium' : 'text-gray-700'}`}
           >
-            Contact
+            Contact Us
           </NavLink>
         </nav>
 
@@ -78,8 +78,8 @@ const Navbar = () => {
           <NavLink to="/services" onClick={closeMenu} className={({isActive}) => `block font-medium ${isActive ? 'text-accent' : 'text-gray-700'}`}>
             Services
           </NavLink>
-          <NavLink to="/contact" onClick={closeMenu} className={({isActive}) => `block font-medium ${isActive ? 'text-accent' : 'text-gray-700'}`}>
-            Contact
+          <NavLink to="/contacts" onClick={closeMenu} className={({isActive}) => `block font-medium ${isActive ? 'text-accent' : 'text-gray-700'}`}>
+            Contact Us
           </NavLink>
         </nav>
       </div>
