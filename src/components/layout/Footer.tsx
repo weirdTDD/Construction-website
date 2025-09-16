@@ -26,7 +26,7 @@ const Footer = () => {
               Planners Avenue<br />
               Spintex-Road, Accra-Ghana<br />
               Phone: (+233) 50 775 8740<br />
-              Email: edwardmorhe77@gmail.com
+              Email: edwardmorhe777@gmail.com
             </address>
           </div>
         </div>

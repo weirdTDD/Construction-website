@@ -82,7 +82,7 @@ const Services = () => {
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover opacity-30"
-            src="/public/about.png"
+            src="/about.png"
             alt="Construction blueprint"
           />
         </div>
