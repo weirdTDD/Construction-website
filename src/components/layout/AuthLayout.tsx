@@ -9,7 +9,7 @@ const AuthLayout = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Link to="/">
           <h2 className="text-center text-3xl font-extrabold text-primary">
-            Build<span className="text-secondary">Master</span>
+            Morhe <span className="text-secondary">Construction</span> Group
           </h2>
         </Link>
       </div>
